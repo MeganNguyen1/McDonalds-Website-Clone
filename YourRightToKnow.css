@@ -1,0 +1,130 @@
+* {
+font-family:Speedee,Sans-serif;
+}
+h1{
+	color:#db0007;
+	font-size:54px;
+	text-align:center;
+}
+
+.checkbox h2 {
+	color:black;
+	margin-left:10%;
+}
+
+form {
+	margin-left:10%;
+}
+nav ul li {
+	display:inline;
+	margin-right:20px;
+	text-align:center;
+}
+nav ul li a {
+	color:black;
+	text-decoration:none;
+}
+.main {
+	text-align:center;
+	justify-content:center;
+}
+.search {
+	text-align:center;
+	margin:35px;
+}
+.search input {
+	width:350px;
+	height:35px;
+	padding:5px;
+}
+.cardGrid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      padding: 20px;
+  }
+  .card {
+    width: 26%;
+	height: 518px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+	font-size: 1.75rem
+}
+
+footer p {
+	text-align:right;
+	color:black;
+}
+footer {
+    color: #fff;
+    text-align: left;
+    padding: 30px 30px 30px 60px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+footer p {
+	text-align:right;
+}
+
+footer href {
+	color:black;
+	text-decoration:none;
+	display:inline-block;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.column h2 {
+  color: black;
+  font-size: 18px;
+}
+
+.column a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.social-media-list {
+  list-style: none;
+  padding: 0;
+  text-align:left;
+}
+
+.social-media-list li {
+  margin: 10px 0;
+}
+
+.social-media-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-media-list i {
+  font-size: 24px;
+  margin-right: 10px;
+}
